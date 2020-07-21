@@ -34,7 +34,6 @@
 include $(SPDK_ROOT_DIR)/CONFIG
 
 C_OPT ?= -fno-omit-frame-pointer
-Q ?= @
 S ?= $(notdir $(CURDIR))
 
 ifeq ($(MAKECMDGOALS),)
